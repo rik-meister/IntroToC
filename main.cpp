@@ -26,6 +26,10 @@ int main()
 	case '-':
 		cout << "Result: " << num1 - num2 << endl;
 		break;
+
+	case '*':
+		cout << "Result: " << num1 * num2 << endl;
+		break;
 	}
 	
 	
