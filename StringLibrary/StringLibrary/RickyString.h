@@ -22,6 +22,13 @@ public:
 	string preprend(StringUtility other);
 	string toLower();
 	string toUpper();
+	int find(StringUtility findString);
+	int find(int startIndex, StringUtility findString);
+	string stringReplace(StringUtility findString, StringUtility other);
+	void readStringLibrary();
+	void logFiles();
+
+	
 };
 
 

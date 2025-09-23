@@ -1,3 +1,7 @@
-﻿  StringLibraryFunctions.cpp
-C:\Users\s258033\Documents\GitHub\IntroToC\StringLibrary\StringLibrary\StringLibraryFunctions.cpp(20,20): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+﻿  main.cpp
+  StringLibraryFunctions.cpp
+C:\Users\s258033\Documents\GitHub\IntroToC\StringLibrary\StringLibrary\StringLibraryFunctions.cpp(18,20): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\s258033\Documents\GitHub\IntroToC\StringLibrary\StringLibrary\StringLibraryFunctions.cpp(62,10): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\s258033\Documents\GitHub\IntroToC\StringLibrary\StringLibrary\StringLibraryFunctions.cpp(76,10): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Generating Code...
   StringLibrary.vcxproj -> C:\Users\s258033\Documents\GitHub\IntroToC\StringLibrary\x64\Debug\StringLibrary.exe

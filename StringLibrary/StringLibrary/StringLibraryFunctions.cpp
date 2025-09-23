@@ -8,12 +8,10 @@ using namespace std;
 StringUtility::StringUtility()
 {
 	data = " ";
-	cout << "Default constructor called." << endl;
 }
 StringUtility::StringUtility(string str)
 {
 	data = str; 
-	cout << "Parameterized constructor called with value: " << str << endl;
 }
 int StringUtility::length()
 {
@@ -59,3 +57,69 @@ string StringUtility::toUpper()
 	}
 	return data;
 }
+int StringUtility::find(StringUtility findString)
+{
+	int pos = data.find(findString.data);
+	if (pos >= 0)
+	{
+		return pos;
+	}
+	return -1;
+}
+int StringUtility::find(int startIndex, StringUtility findString)
+{
+	if (startIndex < 0 || startIndex >= data.length())
+	{
+		return -1;
+	}
+
+	int pos = data.find(findString.data);
+	if (pos >= 0)
+	{
+		return pos;
+	}
+	else
+	{
+		return -1;
+	}
+}
+//string StringUtility::stringReplace(StringUtility findString, StringUtility other)
+//{
+//	size_t pos = data.find(findString.data);
+//
+//	while (pos != string::npos)
+//	{
+//		data.
+//		pos = data.find(findString.data, pos + other.length());
+//	}
+//	return data;
+//}
+void StringUtility::logFiles()
+{
+	ofstream logFile("String_Library_Results.txt", ios::app);
+	if (logFile.is_open())
+	{
+		logFile << data << endl;
+		logFile.close();
+		cout << "File written successfully!" << endl;
+	}
+	else
+	{
+		cout << "Error: Could not create file!" << endl;
+	}
+}
+
+void StringUtility::readStringLibrary()
+{
+	ifstream file("String_Library.txt");
+	string data;
+
+	if (file.is_open())
+	{
+		string data;
+		file >> data;
+		cout << "Result: " << data << endl;
+		file.close();
+	}
+}
+
