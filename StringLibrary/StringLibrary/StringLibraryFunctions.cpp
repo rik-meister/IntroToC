@@ -73,7 +73,7 @@ int StringUtility::find(int startIndex, StringUtility findString)
 		return -1;
 	}
 
-	int pos = data.find(findString.data);
+	int pos = data.find(findString.data, startIndex);
 	if (pos >= 0)
 	{
 		return pos;
@@ -83,17 +83,29 @@ int StringUtility::find(int startIndex, StringUtility findString)
 		return -1;
 	}
 }
-//string StringUtility::stringReplace(StringUtility findString, StringUtility other)
-//{
-//	size_t pos = data.find(findString.data);
-//
-//	while (pos != string::npos)
-//	{
-//		data.
-//		pos = data.find(findString.data, pos + other.length());
-//	}
-//	return data;
-//}
+string StringUtility::replace(StringUtility findString, StringUtility other)
+{
+	int pos = 0;
+	
+	while ((pos = data.find(findString.data, pos)) >= 0)
+	{
+		data.replace(pos, findString.data.length(), other.data);
+		pos += other.data.length(); 
+	}
+	return data;
+}
+void StringUtility::readFromConsole()
+{
+	getline(cin, data);
+}
+void StringUtility::writeToConsole()
+{
+	cout << data;
+}
+string StringUtility::printDataToConsole()
+{
+	return data;
+}
 void StringUtility::logFiles()
 {
 	ofstream logFile("String_Library_Results.txt", ios::app);
@@ -122,4 +134,3 @@ void StringUtility::readStringLibrary()
 		file.close();
 	}
 }
-

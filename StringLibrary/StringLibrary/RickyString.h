@@ -24,11 +24,12 @@ public:
 	string toUpper();
 	int find(StringUtility findString);
 	int find(int startIndex, StringUtility findString);
-	string stringReplace(StringUtility findString, StringUtility other);
+	string replace(StringUtility findString, StringUtility other);
 	void readStringLibrary();
 	void logFiles();
-
-	
+	void readFromConsole();
+	void writeToConsole();
+	string printDataToConsole();
 };
 
 
