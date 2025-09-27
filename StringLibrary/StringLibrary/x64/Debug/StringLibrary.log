@@ -1,2 +1,14 @@
-﻿  main.cpp
-  StringLibrary.vcxproj -> C:\Users\s258033\Documents\GitHub\IntroToC\StringLibrary\x64\Debug\StringLibrary.exe
+﻿  StringLibraryFunctions.cpp
+C:\Users\darkn\OneDrive\Documents\GitHub\IntroToC\StringLibrary\StringLibrary\StringLibraryFunctions.cpp(26,20): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\darkn\OneDrive\Documents\GitHub\IntroToC\StringLibrary\StringLibrary\StringLibraryFunctions.cpp(93,10): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\darkn\OneDrive\Documents\GitHub\IntroToC\StringLibrary\StringLibrary\StringLibraryFunctions.cpp(110,10): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\darkn\OneDrive\Documents\GitHub\IntroToC\StringLibrary\StringLibrary\StringLibraryFunctions.cpp(127,25): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\darkn\OneDrive\Documents\GitHub\IntroToC\StringLibrary\StringLibrary\StringLibraryFunctions.cpp(130,27): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\darkn\OneDrive\Documents\GitHub\IntroToC\StringLibrary\StringLibrary\StringLibraryFunctions.cpp(249,15): warning C4305: '=': truncation from 'int' to 'bool'
+C:\Users\darkn\OneDrive\Documents\GitHub\IntroToC\StringLibrary\StringLibrary\StringLibraryFunctions.cpp(260,15): warning C4305: '=': truncation from 'int' to 'bool'
+  main.cpp
+C:\Users\darkn\OneDrive\Documents\GitHub\IntroToC\StringLibrary\StringLibrary\main.cpp(20,126): warning C4305: 'argument': truncation from 'int' to 'bool'
+C:\Users\darkn\OneDrive\Documents\GitHub\IntroToC\StringLibrary\StringLibrary\main.cpp(27,171): warning C4305: 'argument': truncation from 'int' to 'bool'
+C:\Users\darkn\OneDrive\Documents\GitHub\IntroToC\StringLibrary\StringLibrary\main.cpp(28,211): warning C4305: 'argument': truncation from 'int' to 'bool'
+  Generating Code...
+  StringLibrary.vcxproj -> C:\Users\darkn\OneDrive\Documents\GitHub\IntroToC\StringLibrary\x64\Debug\StringLibrary.exe
