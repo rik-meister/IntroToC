@@ -1,4 +1,12 @@
-Joe Biden
-Joe Biden
-best
-best
+The Alphabetical length of 'Shane' is: 5. Test: PASS
+The Character indexed in the word 'Defense' is 'D'. Test: PASS
+The 'Equal To' boolean result of 'Shane' and 'WORST' is '1'. Test: PASS
+The result of appending results to 'ShaneATTACK'. Test: PASS
+The result of prepending 'ATTACKShane'. Test: PASS
+The result of turning 'ATTACK' lowercase results to 'attack'. Test: PASS
+The result of turning 'best' to uppercase results to 'BEST'. Test: PASS
+The location of the word 'best' found in 'Black Desert Online is the best game ever.' is: 27. Test: PASS
+Using the find index function, the location of the word 'best' found in 'Black Desert Online is the best game ever.' is: 27. Test: PASS
+Replacing the word 'best' within 'Black Desert Online is the best game ever.' with 'WORST' results in: Black Desert Online is the WORST game ever. Test: PASS
+read.FromConsole: Type BeepBoopBEEP: Test: PASS
+Black Desert Online is the best game ever. Test: PASS

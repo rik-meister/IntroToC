@@ -41,7 +41,7 @@ char StringUtility::characterAt(int index)
 					//	Eqaul To Function
 bool StringUtility::equalTo(StringUtility other)
 {
-	return data == other.data;
+	return data.length() == other.length();
 }
 
 
@@ -146,24 +146,6 @@ string StringUtility::printDataToConsole()
 {
 	return data;
 }
-
-
-					//	Logging Files Function
-void StringUtility::logFiles()
-{
-	ofstream logFile("String_Library_Results.txt", ios::app);
-	if (logFile.is_open())
-	{
-		logFile << data << endl;
-		logFile.close();
-		cout << "File written successfully!" << endl;
-	}
-	else
-	{
-		cout << "Error: Could not create file!" << endl;
-	}
-}
-
 
 
 					//Run Test

@@ -56,13 +56,5 @@ public:
 	string replaceTest(bool answer);
 	string readFromConsoleTest(bool answer);
 	string printToConsoleTest(bool answer);
-
-		//To Log results
-	void logFiles();
-	
 };
-
-
-
-
 #endif

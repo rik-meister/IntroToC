@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{A585CFB7-257E-4DDD-BC23-8067E25A630D}|StringLibrary\\StringLibrary.vcxproj|solutionrelative:StringLibrary\\StringLibraryFunctions.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A585CFB7-257E-4DDD-BC23-8067E25A630D}|StringLibrary\\StringLibrary.vcxproj|C:\\Users\\darkn\\OneDrive\\Documents\\GitHub\\IntroToC\\StringLibrary\\StringLibrary\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A585CFB7-257E-4DDD-BC23-8067E25A630D}|StringLibrary\\StringLibrary.vcxproj|solutionrelative:StringLibrary\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A585CFB7-257E-4DDD-BC23-8067E25A630D}|StringLibrary\\StringLibrary.vcxproj|C:\\Users\\darkn\\OneDrive\\Documents\\GitHub\\IntroToC\\StringLibrary\\StringLibrary\\RickyString.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A585CFB7-257E-4DDD-BC23-8067E25A630D}|StringLibrary\\StringLibrary.vcxproj|solutionrelative:StringLibrary\\RickyString.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A585CFB7-257E-4DDD-BC23-8067E25A630D}|StringLibrary\\StringLibrary.vcxproj|C:\\Users\\darkn\\OneDrive\\Documents\\GitHub\\IntroToC\\StringLibrary\\StringLibrary\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A585CFB7-257E-4DDD-BC23-8067E25A630D}|StringLibrary\\StringLibrary.vcxproj|solutionrelative:StringLibrary\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,13 +26,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\darkn\\OneDrive\\Documents\\GitHub\\IntroToC\\StringLibrary\\StringLibrary\\main.cpp",
               "RelativeDocumentMoniker": "StringLibrary\\main.cpp",
               "ToolTip": "C:\\Users\\darkn\\OneDrive\\Documents\\GitHub\\IntroToC\\StringLibrary\\StringLibrary\\main.cpp",
               "RelativeToolTip": "StringLibrary\\main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-09-22T15:16:33.228Z",
               "IsPinned": true,
@@ -40,13 +40,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "RickyString.h",
               "DocumentMoniker": "C:\\Users\\darkn\\OneDrive\\Documents\\GitHub\\IntroToC\\StringLibrary\\StringLibrary\\RickyString.h",
               "RelativeDocumentMoniker": "StringLibrary\\RickyString.h",
               "ToolTip": "C:\\Users\\darkn\\OneDrive\\Documents\\GitHub\\IntroToC\\StringLibrary\\StringLibrary\\RickyString.h",
               "RelativeToolTip": "StringLibrary\\RickyString.h",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAADkAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-09-22T15:17:22.912Z",
               "EditorCaption": ""
@@ -59,7 +59,7 @@
               "RelativeDocumentMoniker": "StringLibrary\\StringLibraryFunctions.cpp",
               "ToolTip": "C:\\Users\\darkn\\OneDrive\\Documents\\GitHub\\IntroToC\\StringLibrary\\StringLibrary\\StringLibraryFunctions.cpp",
               "RelativeToolTip": "StringLibrary\\StringLibraryFunctions.cpp",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACIBAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAJUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-09-22T15:17:50.495Z",
               "EditorCaption": ""
