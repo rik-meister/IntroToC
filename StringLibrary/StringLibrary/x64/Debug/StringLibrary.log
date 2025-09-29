@@ -1,5 +1,2 @@
-﻿  main.cpp
-C:\Users\darkn\OneDrive\Documents\GitHub\IntroToC\StringLibrary\StringLibrary\main.cpp(28,131): warning C4305: 'argument': truncation from 'int' to 'bool'
-C:\Users\darkn\OneDrive\Documents\GitHub\IntroToC\StringLibrary\StringLibrary\main.cpp(35,176): warning C4305: 'argument': truncation from 'int' to 'bool'
-C:\Users\darkn\OneDrive\Documents\GitHub\IntroToC\StringLibrary\StringLibrary\main.cpp(36,216): warning C4305: 'argument': truncation from 'int' to 'bool'
-  StringLibrary.vcxproj -> C:\Users\darkn\OneDrive\Documents\GitHub\IntroToC\StringLibrary\x64\Debug\StringLibrary.exe
+﻿  TextAdventureFunctions.cpp
+  StringLibrary.vcxproj -> C:\Users\s258033\Documents\GitHub\IntroToC\StringLibrary\x64\Debug\StringLibrary.exe

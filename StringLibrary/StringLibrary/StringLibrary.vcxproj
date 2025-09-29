@@ -129,9 +129,11 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="StringLibraryFunctions.cpp" />
+    <ClCompile Include="TextAdventureFunctions.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="RickyString.h" />
+    <ClInclude Include="TextAdventure.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
