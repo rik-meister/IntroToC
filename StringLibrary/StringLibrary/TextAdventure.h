@@ -14,17 +14,22 @@ class Game
 {
 protected:
 	string player;
+	const int ROWS = 3;
+	const int COLS = 3;
+	
 
 public:
+	int playerX = 0, playerY = 1;
 	string name;
 	string description;
 	string playerInput;
+	string mapLocation;
 
-
-
+	string displayMap(string mapLocation);
 	void welcomeIntro();
-
 	void runGameLoop();
+	string displayRoom(int x, int y);
+	bool movePlayer(int& x, int& y, const string direction);
 };
 
 
@@ -34,8 +39,6 @@ class Player:public Game
 public:
 	Player();
 
-	//void move()
-	//	if()
 };
 
 
@@ -45,11 +48,6 @@ class Room:public Game
 protected:
 	const int ROWS = 3;
 	const int COLS = 3;
-
-public:
-
-	void displayRoom(int x, int y)
-
 };
 
 

@@ -1,2 +1,5 @@
 ﻿  TextAdventureFunctions.cpp
-  StringLibrary.vcxproj -> C:\Users\s258033\Documents\GitHub\IntroToC\StringLibrary\x64\Debug\StringLibrary.exe
+  main.cpp
+  Generating Code...
+C:\Users\s258033\Documents\GitHub\IntroToC\StringLibrary\StringLibrary\TextAdventureFunctions.cpp(126): error C4716: 'Game::displayMap': must return a value
+C:\Users\s258033\Documents\GitHub\IntroToC\StringLibrary\StringLibrary\TextAdventureFunctions.cpp(158): warning C4715: 'Game::movePlayer': not all control paths return a value

@@ -8,8 +8,15 @@
 using namespace std;
 
 
+
 int main()
 {
+    /*int playerX = 0, playerY = 1;*/
+   /* string command;*/
+   /* Room room;*/
+
+ /*   room.displayRoom(playerX, playerY);*/
+
     Game game;
     game.welcomeIntro();
     game.runGameLoop();
