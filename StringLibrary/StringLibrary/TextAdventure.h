@@ -32,7 +32,7 @@ public:
 	bool movePlayer(int& x, int& y, const string direction);
 };
 
-//comment
+
 //PLAYER CLASS
 class Player:public Game
 {
