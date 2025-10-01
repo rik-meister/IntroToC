@@ -45,86 +45,89 @@ string Game::displayRoom(int x, int y)
 		{ "Rundas is in the garden.", "Rundas is in the decrepit courtyard.", "Rundas is at a cliff."}
 	};
 	cout << rooms[x][y] << endl;
-	return rooms[x][y];
-}
-string Game::displayMap(string mapLocation)
-{
-	mapLocation = displayRoom(playerX, playerY);
 	
-	if (mapLocation == "Rundas is in the closet.")
-	{
-		cout << " X |   |   " << endl;
-		cout << "---+---+---" << endl;
-		cout << "   |   |   " << endl;
-		cout << "---+---+---" << endl;
-		cout << "   |   |   " << endl;
-	}
-	else if (mapLocation == "Rundas is in the crypt with a Necromancer.")
-	{
-		cout << "   | X |   " << endl;
-		cout << "---+---+---" << endl;
-		cout << "   |   |   " << endl;
-		cout << "---+---+---" << endl;
-		cout << "   |   |   " << endl;
-	}
-	else if (mapLocation == "Rundas is in the Necromancer's Bedchamber.")
-	{
-		cout << "   |   | X " << endl;
-		cout << "---+---+---" << endl;
-		cout << "   |   |   " << endl;
-		cout << "---+---+---" << endl;
-		cout << "   |   |   " << endl;
-	}
-	else if (mapLocation == "Rundas is in the kitchen.")
-	{
-		cout << "   |   |   " << endl;
-		cout << "---+---+---" << endl;
-		cout << " X |   |   " << endl;
-		cout << "---+---+---" << endl;
-		cout << "   |   |   " << endl;
-	}
-	else if (mapLocation == "Rundas is at the inner chamber.")
-	{
-		cout << "   |   |   " << endl;
-		cout << "---+---+---" << endl;
-		cout << "   | X |   " << endl;
-		cout << "---+---+---" << endl;
-		cout << "   |   |   " << endl;
-	}
-	else if (mapLocation == "Rundas is at the sacrificial altar ran by a cat.")
-	{
-		cout << "   |   |   " << endl;
-		cout << "---+---+---" << endl;
-		cout << "   |   | X " << endl;
-		cout << "---+---+---" << endl;
-		cout << "   |   |   " << endl;
-	}
-	else if (mapLocation == "Rundas is in the garden.")
-	{
-		cout << "   |   |   " << endl;
-		cout << "---+---+---" << endl;
-		cout << "   |   |   " << endl;
-		cout << "---+---+---" << endl;
-		cout << " X |   |   " << endl;
-	}
-	else if (mapLocation == "Rundas is in the decrepit courtyard.")
-	{
-		cout << "   |   |   " << endl;
-		cout << "---+---+---" << endl;
-		cout << "   |   |   " << endl;
-		cout << "---+---+---" << endl;
-		cout << "   | X |   " << endl;
-	}
-	else if (mapLocation == "Rundas is at a cliff.")
-	{
-		cout << "   |   |   " << endl;
-		cout << "---+---+---" << endl;
-		cout << "   |   |   " << endl;
-		cout << "---+---+---" << endl;
-		cout << "   |   | X " << endl;
-	}
-	
+		if (rooms[x][y] == rooms[0][0])
+		{
+			cout << " X |   |   " << endl;
+			cout << "---+---+---" << endl;
+			cout << "   |   |   " << endl;
+			cout << "---+---+---" << endl;
+			cout << "   |   |   " << endl;
+		}
+		else if (rooms[x][y] == rooms[0][1])
+		{
+			cout << "   | X |   " << endl;
+			cout << "---+---+---" << endl;
+			cout << "   |   |   " << endl;
+			cout << "---+---+---" << endl;
+			cout << "   |   |   " << endl;
+		}
+		else if (rooms[x][y] == rooms[0][2])
+		{
+			cout << "   |   | X " << endl;
+			cout << "---+---+---" << endl;
+			cout << "   |   |   " << endl;
+			cout << "---+---+---" << endl;
+			cout << "   |   |   " << endl;
+		}
+		else if (rooms[x][y] == rooms[1][0])
+		{
+			cout << "   |   |   " << endl;
+			cout << "---+---+---" << endl;
+			cout << " X |   |   " << endl;
+			cout << "---+---+---" << endl;
+			cout << "   |   |   " << endl;
+		}
+		else if (rooms[x][y] == rooms[1][1])
+		{
+			cout << "   |   |   " << endl;
+			cout << "---+---+---" << endl;
+			cout << "   | X |   " << endl;
+			cout << "---+---+---" << endl;
+			cout << "   |   |   " << endl;
+		}
+		else if (rooms[x][y] == rooms[1][2])
+		{
+			cout << "   |   |   " << endl;
+			cout << "---+---+---" << endl;
+			cout << "   |   | X " << endl;
+			cout << "---+---+---" << endl;
+			cout << "   |   |   " << endl;
+		}
+		else if (rooms[x][y] == rooms[2][0])
+		{
+			cout << "   |   |   " << endl;
+			cout << "---+---+---" << endl;
+			cout << "   |   |   " << endl;
+			cout << "---+---+---" << endl;
+			cout << " X |   |   " << endl;
+		}
+		else if (rooms[x][y] == rooms[2][1])
+		{
+			cout << "   |   |   " << endl;
+			cout << "---+---+---" << endl;
+			cout << "   |   |   " << endl;
+			cout << "---+---+---" << endl;
+			cout << "   | X |   " << endl;
+		}
+		else if (rooms[x][y] == rooms[2][2])
+		{
+			cout << "   |   |   " << endl;
+			cout << "---+---+---" << endl;
+			cout << "   |   |   " << endl;
+			cout << "---+---+---" << endl;
+			cout << "   |   | X " << endl;
+		}
+		return rooms[x][y];
 }
+//string Item::displayRoom(int x, int y)
+//{
+//	if (displayRoom(playerX, playerY) == displayRoom(0,1))
+//	{
+//		cout << "Rundas finds himself attracted to Deth." << endl;
+//	}
+//}
+
 bool Game::movePlayer(int& x, int& y, const string direction)
 {
 	if (direction == "go north" && x > 0)
@@ -153,7 +156,7 @@ bool Game::movePlayer(int& x, int& y, const string direction)
 	}
 	else
 	{
-		cout << "You can't go that way!" << endl;
+		cout << "Invalid command." << endl;
 		false;
 	}
 }
@@ -183,12 +186,15 @@ void Game::runGameLoop()
 		if (command == "where is Rundas?")
 		{
 			displayRoom(playerX, playerY);
-			displayMap(mapLocation);
 		}
 		if (movePlayer(playerX, playerY, command))
 		{
 			cout << " ";
 		}
+		//if (command == "look")
+		//{
+		//	/*displayRoom*/
+		//}
 		else
 		{
 			cout << "Invalid command." << endl;

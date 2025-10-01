@@ -25,10 +25,10 @@ public:
 	string playerInput;
 	string mapLocation;
 
-	string displayMap(string mapLocation);
+	
 	void welcomeIntro();
 	void runGameLoop();
-	string displayRoom(int x, int y);
+	virtual string displayRoom(int x, int y);
 	bool movePlayer(int& x, int& y, const string direction);
 };
 
@@ -38,19 +38,13 @@ class Player:public Game
 {
 public:
 	Player();
-
 };
 
-
-//ROOMS CLASS
-class Room:public Game
+class Item:public Game
 {
-protected:
-	const int ROWS = 3;
-	const int COLS = 3;
+public:
+	string displayRoom(int x, int y) override;
 };
-
-
 
 //class Room;
 //class Item;
