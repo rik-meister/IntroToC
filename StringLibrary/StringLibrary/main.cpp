@@ -43,7 +43,7 @@ int main()
         }
         else if (command == "h")
         {
-            cout << "To move to different rooms, type: 'go north', 'go south', 'go west', 'go east'." << endl;
+            cout << "To move to different rooms, type: 'north', 'south', 'west', 'east'." << endl;
             cout << "To touch, type: 'touch'." << endl;
             cout << "To end game, type: 'quit'." << endl;
         }
@@ -66,7 +66,7 @@ int main()
         else if (command == "touch")
         {
             cout << "Rundas ended up convulsing after touching the death riddled necromancer." << endl;
-            gameOver = map[y][x];
+            gameOver = map[1][0];
             break;
         }
         else cout << "You can't go that way." << endl;
