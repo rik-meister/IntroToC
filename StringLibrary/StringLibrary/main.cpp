@@ -19,7 +19,7 @@ int main()
         { new Room("Rundas is in the garden."), new Room("Rundas is in the decrepit courtyard."), new Room("Rundas is at a cliff.") }
     };
 
-    int x = 1, y = 0;
+    int x = 1, y = 2;
     string command;
 
     cout << "Text Adventure Assessment, press 'h' for the list of commands." << endl;
@@ -41,6 +41,12 @@ int main()
         {
             break;
         }
+        else if (command == "h")
+        {
+            cout << "To move to different rooms, type: 'go north', 'go south', 'go west', 'go east'." << endl;
+            cout << "To touch, type: 'touch'." << endl;
+            cout << "To end game, type: 'quit'." << endl;
+        }
         else if (command == "north" && y > 0)
         {
             y--;
@@ -57,7 +63,7 @@ int main()
         {
             x++;
         }
-        else if (command == "Touch")
+        else if (command == "touch")
         {
             cout << "Rundas ended up convulsing after touching the death riddled necromancer." << endl;
             gameOver = map[y][x];
