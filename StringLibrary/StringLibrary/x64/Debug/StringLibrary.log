@@ -1,6 +1,4 @@
-﻿  TextAdventureFunctions.cpp
-  main.cpp
+﻿  main.cpp
+  TextAdventureFunctions.cpp
   Generating Code...
-C:\Users\s258033\Documents\GitHub\IntroToC\StringLibrary\StringLibrary\TextAdventureFunctions.cpp(162): warning C4715: 'Game::movePlayer': not all control paths return a value
-StringLibraryFunctions.obj : warning LNK4099: PDB '' was not found with 'StringLibraryFunctions.obj' or at ''; linking object as if no debug info
-  StringLibrary.vcxproj -> C:\Users\s258033\Documents\GitHub\IntroToC\StringLibrary\x64\Debug\StringLibrary.exe
+  StringLibrary.vcxproj -> C:\Users\darkn\OneDrive\Documents\GitHub\IntroToC\StringLibrary\x64\Debug\StringLibrary.exe
